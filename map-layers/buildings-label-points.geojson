@@ -1,33 +1,218 @@
 {
-"type": "FeatureCollection",
-"name": "bloco-label",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "label": "Bloco R" }, "geometry": { "type": "Point", "coordinates": [ -46.57425391216016, -23.646949914269513 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco I1" }, "geometry": { "type": "Point", "coordinates": [ -46.573907768822991, -23.646869311814541 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco I2" }, "geometry": { "type": "Point", "coordinates": [ -46.573677209948762, -23.646835306200654 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco J" }, "geometry": { "type": "Point", "coordinates": [ -46.573404023483256, -23.646882858059723 ] } },
-{ "type": "Feature", "properties": { "label": "Ginásio" }, "geometry": { "type": "Point", "coordinates": [ -46.573096229636185, -23.646849442800065 ] } },
-{ "type": "Feature", "properties": { "label": "Campo" }, "geometry": { "type": "Point", "coordinates": [ -46.572520006030437, -23.646964905566897 ] } },
-{ "type": "Feature", "properties": { "label": "Piscina" }, "geometry": { "type": "Point", "coordinates": [ -46.572515145659494, -23.64759525063452 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco M" }, "geometry": { "type": "Point", "coordinates": [ -46.572199514882769, -23.647874434033159 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco G" }, "geometry": { "type": "Point", "coordinates": [ -46.572640905335334, -23.648248998497657 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco F" }, "geometry": { "type": "Point", "coordinates": [ -46.572616220541889, -23.648647660142981 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco T" }, "geometry": { "type": "Point", "coordinates": [ -46.572490579083514, -23.648953573941196 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco E" }, "geometry": { "type": "Point", "coordinates": [ -46.572939789523971, -23.64916265130628 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco D" }, "geometry": { "type": "Point", "coordinates": [ -46.573108744290813, -23.649302776352052 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco C" }, "geometry": { "type": "Point", "coordinates": [ -46.573217296731073, -23.649478536341473 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco B" }, "geometry": { "type": "Point", "coordinates": [ -46.573320860697436, -23.649650633078156 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco A" }, "geometry": { "type": "Point", "coordinates": [ -46.573465014239368, -23.649773375679427 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco N" }, "geometry": { "type": "Point", "coordinates": [ -46.572776516025129, -23.649568961723244 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco H" }, "geometry": { "type": "Point", "coordinates": [ -46.574234326021212, -23.648761812847983 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco W" }, "geometry": { "type": "Point", "coordinates": [ -46.573793258833206, -23.649247286405004 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco V" }, "geometry": { "type": "Point", "coordinates": [ -46.574186995070143, -23.648099559814412 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco U" }, "geometry": { "type": "Point", "coordinates": [ -46.573807127630772, -23.648522884835447 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco P" }, "geometry": { "type": "Point", "coordinates": [ -46.573505069202135, -23.648256396150206 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco Q" }, "geometry": { "type": "Point", "coordinates": [ -46.573276309596586, -23.648100156196175 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco S" }, "geometry": { "type": "Point", "coordinates": [ -46.574303503645297, -23.649699110175895 ] } },
-{ "type": "Feature", "properties": { "label": "Bloco L" }, "geometry": { "type": "Point", "coordinates": [ -46.572626648231228, -23.649627449530367 ] } },
-{ "type": "Feature", "properties": { "label": "Centro Acadêmico - Bloco K" }, "geometry": { "type": "Point", "coordinates": [ -46.572590585893913, -23.649048908055608 ] } }
-]
+  "type": "FeatureCollection",
+  "name": "bloco-label",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco R" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.57425391216016, -23.646949914269513]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco I1" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.573907768822991, -23.646869311814541]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco I2" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.573677209948762, -23.646835306200654]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco J" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.573404023483256, -23.646882858059723]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Ginásio" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.573096229636185, -23.646849442800065]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Campo" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.572520006030437, -23.646964905566897]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Piscina" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.572515145659494, -23.64759525063452]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco M" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.572199514882769, -23.647874434033159]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco G" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.572640905335334, -23.648248998497657]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco F" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.572616220541889, -23.648647660142981]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco T" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.572490579083514, -23.648953573941196]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco E" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.572939789523971, -23.64916265130628]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco D" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.573108744290813, -23.649302776352052]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco C" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.573217296731073, -23.649478536341473]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco B" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.573320860697436, -23.649650633078156]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco A" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.573465014239368, -23.649773375679427]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco N" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.572776516025129, -23.649568961723244]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco H" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.574234326021212, -23.648761812847983]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco W" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.573793258833206, -23.649247286405004]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco V" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.574186995070143, -23.648099559814412]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco U" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.573807127630772, -23.648522884835447]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco P" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.573505069202135, -23.648256396150206]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco Q" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.573276309596586, -23.648100156196175]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco S" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.574303503645297, -23.649699110175895]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Bloco L" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.572626648231228, -23.649627449530367]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "label": "Centro Acadêmico - Bloco K" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.572590585893913, -23.649048908055608]
+      }
+    }
+  ]
 }
